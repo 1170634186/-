@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ch190360\\Desktop\\MyJob\\Shopping\\Shopping.Infrastructure\\Shopping.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ch190360\\Desktop\\MyJob\\Shopping\\Shopping.core\\Shopping.core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ch190360\\Desktop\\MyJob\\Shopping\\Shopping.core\\Shopping.core.csproj",
+        "projectName": "Shopping.core",
+        "projectPath": "C:\\Users\\ch190360\\Desktop\\MyJob\\Shopping\\Shopping.core\\Shopping.core.csproj",
+        "packagesPath": "C:\\Users\\ch190360\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ch190360\\Desktop\\MyJob\\Shopping\\Shopping.core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ch190360\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "sqlSugarCore": {
+              "target": "Package",
+              "version": "[5.0.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ch190360\\Desktop\\MyJob\\Shopping\\Shopping.Infrastructure\\Shopping.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ch190360\\Desktop\\MyJob\\Shopping\\Shopping.Infrastructure\\Shopping.Infrastructure.csproj",
+        "projectName": "Shopping.Infrastructure",
+        "projectPath": "C:\\Users\\ch190360\\Desktop\\MyJob\\Shopping\\Shopping.Infrastructure\\Shopping.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\ch190360\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ch190360\\Desktop\\MyJob\\Shopping\\Shopping.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ch190360\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\ch190360\\Desktop\\MyJob\\Shopping\\Shopping.core\\Shopping.core.csproj": {
+                "projectPath": "C:\\Users\\ch190360\\Desktop\\MyJob\\Shopping\\Shopping.core\\Shopping.core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "sqlSugarCore": {
+              "target": "Package",
+              "version": "[5.0.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
